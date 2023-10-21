@@ -1,0 +1,19 @@
+.navigate__btn{
+  text-decoration: none;
+  color: white;
+  font-size: 32px;
+  padding: 10px 20px;
+  text-transform: uppercase;
+  border:3px solid white;
+  background: #9b908a;
+  transition: all .5s ease;
+  cursor: pointer;
+  border-radius: 16px;
+  margin-left: 30px;
+  &:hover{
+    background: white;
+    border:3px solid #5D5C61;
+    color:#5D5C61;
+    transform: scale(1.1);
+  }
+}

@@ -1,0 +1,20 @@
+.about__container{
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  color: white;
+  align-items: center;
+  line-height: 1.5;
+}
+.about__article{
+  font-size: 56px;
+  font-weight: 600;
+}
+.about__inf{
+  font-size: 34px;
+  font-weight: 500;
+}
+.about__desc{
+  font-size: 34px;
+  font-weight: 500;
+}

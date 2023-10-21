@@ -1,0 +1,34 @@
+.main{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  .main__article{
+    font-size: 72px;
+    font-weight: 700;
+    padding-bottom: 40px;
+  }
+  .main__description{
+    font-size: 44px;
+    font-weight: 500;
+    text-align: center;
+    padding-bottom: 40px;
+  }
+  .main__btn{
+    text-decoration: none;
+    color: white;
+    padding: 20px 40px;
+    background: #9b908a;
+    border-radius: 23px;
+    font-size: 40px;
+    text-transform: uppercase;
+    border:3px solid white;
+    transition: all .5s ease;
+    &:hover{
+      background: white;
+      border:3px solid #5D5C61;
+      color:#5D5C61;
+      transform: scale(1.1);
+    }
+  }
+}

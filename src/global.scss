@@ -1,0 +1,21 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family: 'Arimo', sans-serif;
+  background: url("/images/bg.jpg");
+}
+.container{
+  width: 1280px;
+  margin: 40px auto;
+  flex: 1 1;
+  margin-top: 135px;
+}
+#root{
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: rgba(155, 139, 139, 0.7);
+}

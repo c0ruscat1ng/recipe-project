@@ -1,0 +1,21 @@
+.information__container{
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  color: white;
+  align-items: center;
+  line-height: 1.5;
+}
+.information__stack{
+  align-self: start;
+  font-size: 44px;
+  font-weight: 600;
+}
+.information__about{
+  font-size: 34px;
+  font-weight: 500;
+}
+.information__api{
+  font-size: 34px;
+  font-weight: 500;
+}

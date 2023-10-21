@@ -1,0 +1,54 @@
+.recipe{
+  margin-top: 40px;
+  background: #776c6590;
+  border-radius: 30px;
+  padding: 10px 20px;
+}
+.recipe__container{
+  color: white;
+  display: flex;
+  justify-content: space-between;
+}
+.recipe__article{
+  font-size: 44px;
+  font-weight: 600;
+}
+.recipe__category{
+  font-size: 32px;
+  font-weight: 400;
+}
+.recipe__area{
+  font-size: 32px;
+  font-weight: 400;
+}
+.recipe__img{
+  width: 500px;
+  height: 500px;
+  margin-left: 150px;
+  border-radius: 30px;
+  margin-top: 10px;
+}
+.recipe__instructions{
+  font-size: 16px;
+  line-height: 1.5;
+}
+.recipe__video{
+  margin-top: 20px;
+  text-decoration: none;
+  font-size: 24px;
+  color: white;
+  display: inline-block;
+  align-self: center;
+  padding: 5px 10px;
+  background: #776c65;
+  border-radius: 10px;
+  transition: all .5s ease;
+  border: 2px solid white;
+  font-weight: 500;
+  &:hover{
+    background: white;
+    border:3px solid #5D5C61;
+    color:#5D5C61;
+    transform: scale(1.1);
+  }
+}
