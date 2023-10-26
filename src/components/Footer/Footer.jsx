@@ -5,7 +5,6 @@ const Footer = () => {
     return (
         <div className={styles.footer}>
             <div>© {new Date().getFullYear()} Copyright Text</div>
-            <div>Yaroslavl Corporation</div>
             <div>Домашние рецепты</div>
         </div>
     );

@@ -6,6 +6,7 @@
 body{
   font-family: 'Arimo', sans-serif;
   background: url("/images/bg.jpg");
+  background-size: 100% auto;
 }
 .container{
   width: 1280px;
@@ -17,5 +18,5 @@ body{
   display: flex;
   flex-direction: column;
   min-height: 100vh;
-  background-color: rgba(155, 139, 139, 0.7);
+  background-color: rgba(155, 139, 139, 0.9);
 }
