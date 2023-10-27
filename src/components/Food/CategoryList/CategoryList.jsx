@@ -3,6 +3,7 @@ import {useDispatch, useSelector} from "react-redux";
 import {fetchCategories} from "../../../store/categoriesSlice.js";
 import CategoryItem from "../CategoryItem/CategoryItem.jsx";
 
+
 import styles from './CategoryList.module.scss'
 import {Link, useNavigate} from "react-router-dom";
 import NavigateButton from "../../UI/NavigateButton/NavigateButton.jsx";
@@ -20,7 +21,7 @@ const CategoryList = () => {
 
     return (
         <>
-            <NavigateButton navigate={()=>navigate(-1)}/>
+            <NavigateButton navigate={() => navigate(-1)}/>
             <div className={styles.categories}>
                 {status === 'loading' && <Skeleton/>}
                 {error && <h2>An error:{error}</h2>}

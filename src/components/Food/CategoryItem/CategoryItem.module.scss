@@ -19,14 +19,14 @@
   }
 
   &__desc {
-    height: 170px;
+    height: 162px;
     overflow: hidden;
     padding: 10px 20px;
     font-size: 18px;
     text-align: center;
     text-overflow: ellipsis;
     display: -webkit-box;
-    -webkit-line-clamp: 8;
+    -webkit-line-clamp: 7;
     -webkit-box-orient: vertical;
     margin-bottom: 12px;
   }
