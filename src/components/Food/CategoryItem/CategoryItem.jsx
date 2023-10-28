@@ -2,7 +2,8 @@ import React from 'react';
 import styles from './CategoryItem.module.scss'
 import {NavLink} from "react-router-dom";
 
-const CategoryItem = ({strCategory,strCategoryDescription,strCategoryThumb}) => {
+const CategoryItem = ({strCategory, strCategoryDescription, strCategoryThumb}) => {
+
     return (
         <div className={styles.item}>
             <img src={strCategoryThumb} alt="" className={styles.item__img}/>
