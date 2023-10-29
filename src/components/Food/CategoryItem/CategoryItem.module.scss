@@ -8,8 +8,10 @@
   -moz-box-shadow: 0px 0px 10px 5px rgba(255, 255, 255, 0.2);
   box-shadow: 0px 0px 10px 5px rgba(255, 255, 255, 0.2);
   transition: transform .3s linear;
+  border: 1px solid white;
+
   &:hover{
-    transform: scale(1.05);
+    transform: scale(1.04);
   }
   &__name {
     font-size: 32px;
@@ -19,7 +21,7 @@
   }
 
   &__desc {
-    height: 162px;
+    height: 161px;
     overflow: hidden;
     padding: 10px 20px;
     font-size: 18px;
